@@ -1,0 +1,22 @@
+.pending > table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  
+.pending >  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+.pending_row:nth-child(even) {
+    background-color: lightgray;
+  }
+
+.pending_link {
+    text-decoration: none;
+    color: black;
+}

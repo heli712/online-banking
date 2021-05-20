@@ -1,0 +1,46 @@
+
+
+.remAcc_container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+}
+
+.remAcc > h1 {
+    margin : 50px;
+    margin-left: 65px;
+    
+}
+
+.remAcc_container > form > h4{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.remAcc_container > form > input {
+    padding: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.remAcc_container > form > button {
+    background-color: #149ADD;
+    border-radius: 2px;
+    width: 98%;
+    height: 40px;
+    border: 1px solid #149ADD;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.remAcc_container > p {
+    padding : 10px;
+    font-size: 25px;
+}
