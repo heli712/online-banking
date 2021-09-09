@@ -6,7 +6,6 @@ const mongoose = require('mongoose')
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 
-//MVv3qlzbAoAI0cWB
 mongoose.connect(process.env.DB_CONNECT, { useNewUrlParser: true, useCreateIndex: true,useUnifiedTopology: true})
 const db = mongoose.connection
 db.on('error', (error) => console.error(error))
