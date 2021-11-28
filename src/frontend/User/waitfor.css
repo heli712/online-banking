@@ -1,0 +1,14 @@
+.waitforadmin {
+    background-color: #004BE2 ;
+    height: 400px;
+}
+
+.message{
+    padding: 50px;
+}
+
+.message > h1 {
+    color: white;
+    font-size: 60px;
+    padding: 10px;
+}

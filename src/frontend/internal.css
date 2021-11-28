@@ -1,0 +1,58 @@
+.internal_page{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.internal {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+}
+
+.internal > form > h4{
+   padding: 5px;
+   font-size: 20px;
+}
+
+
+.internal> form > select {
+    padding: 5px;
+    font-size: 18px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 99%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.internal > form > input {
+    padding: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.internal > form > button {
+    background-color: #149ADD;
+    border-radius: 2px;
+    width: 98%;
+    height: 40px;
+    border: 1px solid #149ADD;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.internal > p {
+    padding : 10px;
+    font-size: 25px;
+}

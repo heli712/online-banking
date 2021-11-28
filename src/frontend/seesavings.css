@@ -1,0 +1,25 @@
+.saving > table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.saving >  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  .seesavings {
+    padding: 5px;
+      height: 30px;
+      margin:20px;
+      background-color: white;
+      width: 500px;
+      border: 1px solid black;
+      border-radius: 5px;
+  }

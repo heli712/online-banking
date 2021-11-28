@@ -1,0 +1,60 @@
+.deposite_page{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.deposite_container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+}
+
+.deposite_container > form > h4{
+   padding: 5px;
+   font-size: 20px;
+}
+.bottom_header{
+    margin-top: 30px;
+}
+
+.deposite_container > form > select {
+    padding: 5px;
+    font-size: 18px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 99%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.deposite_container > form > input {
+    padding: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.deposite_container > form > button {
+    background-color: #149ADD;
+    border-radius: 2px;
+    width: 98%;
+    height: 40px;
+    border: 1px solid #149ADD;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.deposite_container > p{
+    padding : 10px;
+    font-size: 25px;
+}

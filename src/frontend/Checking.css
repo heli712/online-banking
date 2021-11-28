@@ -1,0 +1,129 @@
+.checking{
+    display: flex;
+    flex-direction: row;
+}
+
+.checking_account {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height:100px;
+    background-color: lightgreen;
+    margin: 70px;
+}
+
+.cname{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.camount{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.saving_account {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height:100px;
+    background-color: skyblue;
+    margin: 70px;
+}
+.checkingnum {
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    height:100px;
+    background-color: lightgreen;
+    margin: 70px;   
+}
+
+.savingnum{
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    height:100px;
+    background-color: lightblue;
+    margin: 70px
+}
+
+.csb {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height:120px;
+    background-color: #dddddd;
+    margin: 70px;   
+    padding: auto;
+}
+
+.cb {
+    margin-top:20px;
+    margin-left:30px
+}
+.sb{
+    margin-left:30px
+}
+
+.sname{
+    padding: 30px;
+}
+
+.samount {
+    padding: 30px;
+}
+
+.transactions{
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    margin-right: 40px;
+}
+
+.deposite_ {
+    display: flex;
+    flex-direction: column;
+    background-color: #ECF0F1;
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+    padding-top: 10px;
+    padding-left: 15px; 
+    border-radius: 5px;
+}
+.dicon {
+    margin-left: 20px;
+}
+.dname {
+    margin-left:50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.link_deposite{
+    color: black;
+    text-decoration: none;
+}
+
+.link_withdraw {
+    color: black;
+    text-decoration: none;
+}
+.withdraw {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #ECF0F1;
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+    padding-top: 10px;
+    padding-left: 15px; 
+    border-radius: 5px;
+}
+.wicon {
+    margin-left: 30px;
+}
+.wname {
+    margin-left:50px;
+    font-size: 20px;
+    font-weight: 500;
+}
